@@ -49,15 +49,5 @@ public class ProductOperationsPage {
     public boolean isAnyProductDisplayed() {
     	return !driver.findElements(By.id("view")).isEmpty();
     }
-    // bu projeyi nereden buldun böyle :) 
-    // çok mu kötü :D bunları yazabildin mi bilmiyorum da 
-    // burada bir hata var o da skuArea ile başlayan ve fieldset/select bunla giden dizin
-    // altında option[2] indexli elemanını bulamıyor.  burayı 
-    /*
-     *  şöyle kurtarabiliriz diye umuyorum 
-     *  eğer option boşsa urun eklemesin veya ne yapıyorsa kodun akışında artık .
-     *  Takip edilen ürün bulundu mesajı verip ürünü bulamıyor gibi bir hata sanırım 
-     *  
-     * 
-     */
+
 }
